@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.pyrDown(cv2.imread('T11.jpeg', cv2.IMREAD_UNCHANGED))
+img = cv2.pyrDown(cv2.imread('ENTER PATH TO IMAGE', cv2.IMREAD_UNCHANGED))
 
 
 ret, threshed_img = cv2.threshold(cv2.cvtColor(img, cv2.COLOR_BGR2GRAY),
